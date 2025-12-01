@@ -1,7 +1,3 @@
-"""
-Zadanie 6.2 z zestawu 6
-testy do zadania znajduja sie w pliku test_points.py
-"""
 
 import math
 
@@ -73,6 +69,7 @@ class Point:
         Pozwala uzywac Point w zbiorach i slownikach.
         """
         return hash((self.x, self.y))
+
 
 
 
